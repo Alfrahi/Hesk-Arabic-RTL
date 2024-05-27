@@ -9,6 +9,7 @@
 *
 * Amer Meshal
 * Naif Althubaiti
+* Abdullah Alfrahi
 *
 * ==> HOW TO TRANSLATE THIS FILE
 *
@@ -43,18 +44,18 @@ $hesklang['ENCODING']='UTF-8';
 $hesklang['_COLLATE']='utf8_unicode_ci';
 
 // This is the email break line that will be used in email piping
-$hesklang['EMAIL_HR']='------ Reply above this line ------';
+$hesklang['EMAIL_HR']='------ قم بالرد فوق هذا السطر ------';
 
 // EMAIL SUBJECTS
 $hesklang['new_ticket_staff']='[#%%TRACK_ID%%] تذكرة جديدة: %%SUBJECT%%';
-$hesklang['ticket_received']='[#%%TRACK_ID%%] استقبل تذكرة: %%SUBJECT%%';
-$hesklang['ticket_assigned_to_you']='[#%%TRACK_ID%%] تذكرة مسندة : %%SUBJECT%%';
-$hesklang['new_reply_by_customer']='[#%%TRACK_ID%%] الرد الجديد لـ: %%SUBJECT%%';
-$hesklang['new_reply_by_staff']='[#%%TRACK_ID%%] رد الجديد لـ: %%SUBJECT%%';
-$hesklang['category_moved']='[#%%TRACK_ID%%] نقل تذكرة: %%SUBJECT%%';
-$hesklang['new_note']='[#%%TRACK_ID%%] ملاحظة تضاف إلى: %%SUBJECT%%';
+$hesklang['ticket_received']='[#%%TRACK_ID%%] تذكرة مستلمة: %%SUBJECT%%';
+$hesklang['ticket_assigned_to_you']='[#%%TRACK_ID%%] تذكرة مسندة لك : %%SUBJECT%%';
+$hesklang['new_reply_by_customer']='[#%%TRACK_ID%%] رد جديد من العميل: %%SUBJECT%%';
+$hesklang['new_reply_by_staff']='[#%%TRACK_ID%%] رد جديد من أحد اعضاء الفريق: %%SUBJECT%%';
+$hesklang['category_moved']='[#%%TRACK_ID%%] فئة منقولة: %%SUBJECT%%';
+$hesklang['new_note']='[#%%TRACK_ID%%] ملاحظة جديدة: %%SUBJECT%%';
 $hesklang['new_pm']='رسالة خاصة جديدة: %%SUBJECT%%';
-$hesklang['forgot_ticket_id']='قائمة لتذاكر الدعم ';
+$hesklang['forgot_ticket_id']='نسيت معرّف التذكرة';
 
 // ERROR MESSAGES
 $hesklang['cant_connect_db']='لا يمكن الاتصال بقاعدة البيانات!';
@@ -131,7 +132,7 @@ $hesklang['priority']='الأولوية';
 $hesklang['open']='جديد';
 $hesklang['open_action']='فتح تذكرة'; // Open ACTION
 $hesklang['close']='مغلق'; // Closed ticket STATUS
-$hesklang['any_status']='أي حـالـة';
+$hesklang['any_status']='أي حالة';
 $hesklang['high']='مرتفعة';
 $hesklang['medium']='متوسطة';
 $hesklang['low']='منخفضة';
@@ -167,7 +168,7 @@ $hesklang['ticket_status']='حالة التذكرة';
 $hesklang['replies']='الردود';
 $hesklang['date']='التاريخ';
 $hesklang['email']='الايميل';
-$hesklang['ip']='عنوان الـ Ip';
+$hesklang['ip']='عنوان ال Ip';
 $hesklang['message']='الرسالة';
 $hesklang['add_reply']='اضافة رد';
 $hesklang['close_this_ticket']='تعلم التذكرة المتمة';
@@ -223,7 +224,7 @@ $hesklang['profile_updated']='تحديث الملف الشخصي';
 $hesklang['profile_updated_success']='تم تحديث الملف الشخصي بنجاح';
 $hesklang['user_removed']='ازالة المستخدم';
 $hesklang['sel_user_removed']='تمت ازالة المستخدم المحدد من قاعدة البيانات بنجاح';
-$hesklang['profile_for']='الملف الشخصي للـ';
+$hesklang['profile_for']='الملف الشخصي لل';
 $hesklang['new_pass']='رقم سري جديد';
 $hesklang['update_profile']='تحديث الملف الشخصي';
 $hesklang['notify_new_posts']='أعلمني عن تذاكر ومشاركات جديدة ضمن الفئات الخاصة بي';
@@ -325,7 +326,7 @@ $hesklang['err_surl']='فضلك أدخل رابط موقعك. تأكد من  ا�
 $hesklang['err_wmmail']='فضلا أدخل بريد إلكتروني صحيح لصاحب الموقع';
 $hesklang['err_nomail']='يرجى أدخل بريد الكتروني الاستعادة  ويكون صحيح';
 $hesklang['err_htitle']='يرجى إدخال عنوان مكتب الدعم';
-$hesklang['err_hurl']='الرجاء إدخال  مجلد رابط الـ Hesk . تأكد من  ان الرابط صالح ( وتبدأ ب http: // أو https: //)';
+$hesklang['err_hurl']='الرجاء إدخال  مجلد رابط ال Hesk . تأكد من  ان الرابط صالح ( وتبدأ ب http: // أو https: //)';
 $hesklang['err_lang']='الرجاء تحديد اللغة للسكربت (HESK) ';
 $hesklang['err_nolang']='عدم وجود ملف اللغة المحددة في مجلد اللغة!  تأكد من تحميل الملف قبل تغيير إعداد اللغة.';
 $hesklang['err_max']='الرجاء ادخل أقصى قدر من القوائم المعروضة في كل صفحة';
@@ -415,9 +416,9 @@ $hesklang['kb_save']='حفظ المقال';
 $hesklang['kb_e_subj']='أدخل موضوع المقال ! ';
 $hesklang['kb_e_cont']='اكتب محتويات المادة /المقال ! ';
 $hesklang['kb_art_added']='اضافةالمقال';
-$hesklang['your_kb_added']='تمت إضافة المقال / المادة لـقاعدة المعرفة الجديدة بنجاح';
+$hesklang['your_kb_added']='تمت إضافة المقال / المادة لقاعدة المعرفة الجديدة بنجاح';
 $hesklang['kb_art_deleted']='حذف المقال';
-$hesklang['your_kb_deleted']='تم حذف المقال / المادة المختارة لـقاعدة المعرفة بنجاح';
+$hesklang['your_kb_deleted']='تم حذف المقال / المادة المختارة لقاعدة المعرفة بنجاح';
 $hesklang['kb_art_mod']='المادة / المقال  المعدلة';
 $hesklang['your_kb_mod']='تم حفظ التغييرات إلى المقالة / المادة مختارة بنجاح';
 $hesklang['kb_cat_new']='فئة قاعدة المعرفة الجديدة';
@@ -628,7 +629,7 @@ $hesklang['kb_spar']='الفئة لا يمكن أن تكون فئة الأم ا�
 $hesklang['mysql_root']='كلمة السر MYSQL فارغة، هل أنت متأكد أنك تريد الدخول مع المستخدم الجذر(root)؟ هذا هو الخطر الأمني الكبير؟!';
 $hesklang['chg']='تغيير';
 $hesklang['chpri']='تغيرت الأولويات';
-$hesklang['chpri2']='تم تغيير تذكرة/تذاكر الاولوية لـ %s';
+$hesklang['chpri2']='تم تغيير تذكرة/تذاكر الاولوية ل %s';
 $hesklang['selcan']='اختيار الإجابة الجاهزة كنت ترغب في تعديل';
 $hesklang['q_wrng']='إجابة خاطئة لمكافحة الرسائل التطفلية (SPAM)';
 $hesklang['cndupl']='لديك بالفعل فئة بهذا الاسم. اختر اسما فريد لكل فئة.';
@@ -797,7 +798,7 @@ $hesklang['tislock']='هذه التذكرة قد تم إغلاقها، فإن ا
 $hesklang['tislock2']='قد تم إغلاقه هذه التذكرة، لا يمكنك الرد.';
 $hesklang['nsfo']='لم يتم العثور على المقالات(المواد) ذات علاقة.';
 $hesklang['thist1']='<li class="smaller">%s | انتقلت إلى فئة   %s   بواسطة   %s</li>'; // %s = date, new category, user making change
-$hesklang['thist2']='<li class="smaller">%s | المحصصة لـ %s بواسطة  %s</li>'; // %s = date, assigned user, user making change
+$hesklang['thist2']='<li class="smaller">%s | المحصصة ل %s بواسطة  %s</li>'; // %s = date, assigned user, user making change
 $hesklang['thist3']='<li class="smaller">%s | أغلقت بواسطة  %s</li>'; // %s = date, user making change
 $hesklang['thist4']='<li class="smaller">%s | فتحت بواسطة  %s</li>'; // %s = date, user making change
 $hesklang['thist5']='<li class="smaller">%s | مقفلة بواسطة   %s</li>'; // %s = date, user making change
@@ -878,7 +879,7 @@ $hesklang['cot']='لا توجه التذاكر الحساسة على الجزء 
 $hesklang['def']='جعل هذه طريقة عرض افتراضية الخاص بي';
 $hesklang['gbou']='على هذه التذاكر  <b>غير المعينة</b>:';
 $hesklang['gbom']='تذاكر المخصصة  <b>لي </b>:';
-$hesklang['gboo']='تذاكر المخصصة لـ <b>%s</b>:';
+$hesklang['gboo']='تذاكر المخصصة ل <b>%s</b>:';
 $hesklang['select']=' - - انقر للإختيار - - ';
 $hesklang['chngstatus']='تغير الحالة إلى';
 $hesklang['perat']='%s في جميع التذاكر'; // Will change to "23% of all tickets"
@@ -979,7 +980,7 @@ $hesklang['responses']='الردود الجاهزة';
 $hesklang['caaon']='تمكين التعيين التلقائي للفئة المحددة';
 $hesklang['caaoff']='تعطيل التعيين التلقائي للفئة المحددة';
 $hesklang['cpub']='نوع الفئة تغيرت إلى العامة';
-$hesklang['cpriv']='نوع الفئة تغيرت إلى خـاص';
+$hesklang['cpriv']='نوع الفئة تغيرت إلى خاص';
 $hesklang['cpric']='لا يمكن للعملاء اختيار الفئات الخاصة، فقط يمكن للموظفين!';
 $hesklang['user_aa']='تعيين تذاكر تلقائية لهذا المستخدم ';
 $hesklang['attach_size']='اقصى حجم الملف المرفق ';
@@ -1049,7 +1050,7 @@ $hesklang['thist16']='<li class="smaller">%s | الجلب مقدمة من POP3 <
 $hesklang['twu']='عملت في الوقت تم تحديث التذاكر.';
 $hesklang['autoss']='بدء الموقت تلقائيا عند فتح تذكرة';
 $hesklang['ful']='حدود تحميل الملف';
-$hesklang['ufl']='تستطيع تحميل الملفات التي تنتهي بـ :';
+$hesklang['ufl']='تستطيع تحميل الملفات التي تنتهي ب :';
 $hesklang['nat']='الحد الأقصى لعدد المرفقات:';
 $hesklang['mfs']='الحد الأقصى لحجم كل مرفق:';
 $hesklang['lps']='تم حفظ اللغة المفضلة';
@@ -1217,8 +1218,8 @@ $hesklang['cat_pri_info']='يسمح للعملاء الخاص بك بتحديد 
 $hesklang['def_pri']='فئة او تصنيف الأولوية :';
 $hesklang['ch_cat_pri']='تعيين الأولوية التصنيف';
 $hesklang['cat_pri_ch']='تم تعيين فئة الأولوية إلى:';
-$hesklang['err_dbversion']='اصدار الـ mysql ــ قديم جدا';
-$hesklang['ip_whois']='بيانات الـIP';
+$hesklang['err_dbversion']='اصدار ال mysql  قديم جدا';
+$hesklang['ip_whois']='بيانات الIP';
 $hesklang['ednote']='تحرير رسالة الملاحظة';
 $hesklang['ednote2']='جفظ رسالة الملاحظة ';
 $hesklang['perm_deny']='تم رفض الإذن';
@@ -1227,7 +1228,7 @@ $hesklang['no_note']='ملاحظة مع هذا الرقم لم يتم العثو
 $hesklang['sacl']='الحفظ والاستمرار في وقت لاحق';
 $hesklang['reply_saved']='تم حفظ رسالة الرد في وقت لاحق.';
 $hesklang['submit_as']='بتقديم على النحو التالي:';
-$hesklang['sasc']='إرسال كـ رد  للعملاء';
+$hesklang['sasc']='إرسال ك رد  للعملاء';
 $hesklang['creb']='رد العملاء ادخلت  عن طريق:';
 $hesklang['show_select']='عرض &quot;اضغط للإختيار&quot; كما الاختيار الافتراضي';
 // Settings
@@ -1263,14 +1264,14 @@ $hesklang['eisban']='محظور عنوان البريد الإلكتروني ه�
 $hesklang['click_unban']='انقر هنا لرفع الحظر.';
 $hesklang['banip']='عنوان بروتوكول الإنترنت المحظورة';
 $hesklang['banip_intro']='والزائرين من عناوين دائم المحظورة لن تكون قادرة على عرض أو تقديم تذاكر والدخول إلى مكتب المساعدة.';
-$hesklang['ipperm']='فرض حظر دائم لـ ip:';
+$hesklang['ipperm']='فرض حظر دائم ل ip:';
 $hesklang['iptemp']='فشل تسجيل الحظر';
-$hesklang['savebanip']='حظر هذا الــ IP';
+$hesklang['savebanip']='حظر هذا ال IP';
 $hesklang['no_banips']='<i>لا يوجد عناوين يتم حظرها</i>';
 $hesklang['bananip']='لحظر عنوان ip';
 $hesklang['banex']='الأمثلة على ذلك:';
 $hesklang['iprange']='نطاق ip';
-$hesklang['ippermban']='حظر هذا الــ IP بشكل دائم';
+$hesklang['ippermban']='حظر هذا ال IP بشكل دائم';
 $hesklang['enterbanip']='أدخل عنوان IP أو النطاق الذي ترغب في حظره.';
 $hesklang['validbanip']='إدخال عنوان IP صالح أو نطاق IP';
 $hesklang['ip_banned']='عنوان IP <i>%s</i> تم حظره وسيقوم HESK بعدم استقبال تذاكر من هذا العنوان IP.'; // %s will be replaced with IP
@@ -1354,7 +1355,7 @@ $hesklang['pjt']='مهلة المهمة';
 $hesklang['pjt2']='البداية بعد دقائق';
 $hesklang['nkba']='ابحث في قاعدة المعرفة تقتضي ما يكفي من المقالات الفريدة للعمل بشكل صحيح.<br /><br />النظر في إضافة المزيد من المقالات في قاعدة المعرفة لتحسين نتائج البحث وإيحاء المقال.';
 $hesklang['saa']='يتم عرض المقالات اللزجة فى أعلى قائمة المقالات';
-$hesklang['yhbr']='لقد تم تأمين النظام لـ %s دقيقة بسبب الكثير من الردود على تذكرة.';
+$hesklang['yhbr']='لقد تم تأمين النظام ل %s دقيقة بسبب الكثير من الردود على تذكرة.';
 
 // Language for Google reCaptcha API version 2
 // Supported language codes: https://developers.google.com/recaptcha/docs/language
@@ -1363,20 +1364,20 @@ $hesklang['RECAPTCHA']='ar';
 
 // Added in version 2.7.0
 $hesklang['imap']='IMAP Fetching';
-$hesklang['imaph']='IMAP Host';
-$hesklang['imapp']='IMAP Port';
-$hesklang['enc']='Encryption';
+$hesklang['imaph']='خادم الـIMAP';
+$hesklang['imapp']='منفذ الـIMAP';
+$hesklang['enc']='التشفير';
 $hesklang['ssl']='SSL';
 $hesklang['tls']='TLS';
 $hesklang['none']='لا يوجد';
-$hesklang['imapu']='IMAP Username';
-$hesklang['imapw']='IMAP Password';
-$hesklang['imaptest']='Test IMAP connection';
-$hesklang['ifd']='[HESK] IMAP FETCHING IS DISABLED IN SETTINGS';
-$hesklang['iei']='[HESK] PHP IMAP extension is not installed.';
-$hesklang['ifr']='Another IMAP fetching task is still in progress.';
+$hesklang['imapu']='اسم مستخدم الـIMAP';
+$hesklang['imapw']='كلمة مرور الـIMAP';
+$hesklang['imaptest']='اختبار اتصال IMAP';
+$hesklang['ifd']='[HESK] تم تعطيل جلب IMAP في الإعدادات';
+$hesklang['iei']='[HESK] ملحق PHP IMAP غير مثبت.';
+$hesklang['ifr']='لا تزال مهمة جلب IMAP أخرى قيد التنفيذ.';
 $hesklang['arp']='إعادة تحميل الصفحة تلقائي';
-$hesklang['arpp']='Automatically reload page with ticket list every:';
+$hesklang['arpp']='إعادة تحميل الصفحة تلقائياً مع قائمة التذاكر كل:';
 $hesklang['seconds']='ثواني';
 $hesklang['minutes']='دقائق';
 $hesklang['atbr']='يجب تخصيص هذه التذكرة قبل الرد عليها';
@@ -1391,12 +1392,12 @@ $hesklang['fass']='مطلوب مالك';
 $hesklang['req_sub']='مطلوب موضوع';
 $hesklang['req_msg']='مطلوب رسالة';
 $hesklang['req_email']='مطلوب بريد إلكتروني';
-$hesklang['default_subject']='Ticket from %s';
-$hesklang['off-hide']='Hide in customer form';
+$hesklang['default_subject']='تذاكر من %s';
+$hesklang['off-hide']='إخفاء في نموذج العميل';
 $hesklang['not_valid_email']='أدخل عنوان بريد إلكتروني صالحًا أو اترك هذا الحقل فارغًا';
-$hesklang['write_down']='<span style="color:red">We recommend that you write down your Ticket ID for future reference.</span>';
-$hesklang['re_confirm1']='Disabling this will also disable "Require email to view tickets" under "Security". Proceed?';
-$hesklang['re_confirm2']='Enabling this will also enable "Require email" under "Features". Proceed?';
+$hesklang['write_down']='<span style="color:red">نوصيك بتدوين معرّف التذكرة للرجوع إليه مستقبلاً.</span>';
+$hesklang['re_confirm1']='سيؤدي تعطيل هذا أيضًا إلى تعطيل "طلب البريد الإلكتروني لعرض التذاكر" ضمن "الأمان". تابع؟';
+$hesklang['re_confirm2']='سيؤدي تمكين ذلك أيضًا إلى تمكين "طلب البريد الإلكتروني" ضمن "الميزات". المضي قدماً؟';
 $hesklang['can_email_tpl']='تحرير قوالب البريد الإلكتروني';
 $hesklang['et_title']='قوالب البريد الإلكتروني';
 $hesklang['et_intro']='قم بتعديل رسائل البريد الإلكتروني التي يتم إرسالها إلى موظفيك وعملائك';
@@ -1438,19 +1439,19 @@ $hesklang['select_category_staff']='أختر فئة التذكرة';
 $hesklang['scat']='حد تحديد الفئة';
 $hesklang['scat2']='(سيظهر مربع التحديد إذا كان عدد الفئات أعلى)';
 $hesklang['new_cf']='حقل مخصص جديد';
-$hesklang['cf_intro']='Use this feature to add custom fields to the Submit a ticket form so you can collect additional data from customers.';
+$hesklang['cf_intro']='استخدم هذه الميزة لإضافة حقول مخصصة إلى نموذج إرسال التذكرة حتى تتمكن من جمع بيانات إضافية من العملاء.';
 $hesklang['cf_public']='عام';
 $hesklang['cf_private']='فريق العمل فقط';
 $hesklang['cf_cust']='للعملاء';
 $hesklang['cf_all']='الكل';
 $hesklang['cf_cat']='المحدد';
-$hesklang['cf_ctrl']='Tip: hold down CTRL key to select multiple categories';
+$hesklang['cf_ctrl']='تلميح: اضغط باستمرار على مفتاح CTRL لتحديد فئات متعددة';
 $hesklang['visibility']='حالة الظهور';
 $hesklang['cf_save']='حفظ الحقل المخصص';
 $hesklang['ex_cf']='الحقول المخصصة النشطة';
 $hesklang['no_cf']='لا توجد حقول مخصصة نشطة';
-$hesklang['del_cf']='Delete this custom field? This will also delete any saved custom field data from the database!';
-$hesklang['cf_e_id']='Invalid ID';
+$hesklang['del_cf']='حذف هذا الحقل المخصص؟ سيؤدي هذا أيضًا إلى حذف أي بيانات حقول مخصصة محفوظة من قاعدة البيانات!';
+$hesklang['cf_e_id']='معرّف غير صالح';
 $hesklang['edit_cf']='تحرير حقل مخصص';
 $hesklang['cf_deleted']='تم حذف الحقل المخصص';
 $hesklang['cf_not_found']='هذا الحقل المخصص غير موجود';
@@ -1474,9 +1475,9 @@ $hesklang['d_emin']='الحد الأدنى للتاريخ <i>%s</i> هو %s';
 $hesklang['d_emax']='الحد الأقصى للتاريخ <i>%s</i> هو %s';
 $hesklang['d_format']='تنسيق عرض التاريخ';
 $hesklang['d_custom']='تنسيق مخصص';
-$hesklang['d_ci']='ADVANCED USERS ONLY: a valid PHP date format, see PHP manual.';
-$hesklang['cf_noe']='Enter a valid email address into <i>%s</i>';
-$hesklang['cf_noem']='Enter one or more valid email addresses into <i>%s</i>';
+$hesklang['d_ci']='للمستخدمون المتقدمون فقط: تنسيق تاريخ PHP صالح، راجع دليل PHP.';
+$hesklang['cf_noe']='أدخل عنوان بريد إلكتروني صالح في <i>%s</i>';
+$hesklang['cf_noem']='أدخل عنوان بريد إلكتروني صالح أو أكثر في <i>%s</i>';
 $hesklang['cf_limit']='.لديك 50 حقلاً مخصصًا نشطًا ، ولا يمكن إنشاء حقل جديد';
 $hesklang['can_resolve']='يمكن حل التذاكر';
 $hesklang['can_change_own_cat']='تغيير فئة التذكرة (إلى مسموح)';
@@ -1484,23 +1485,23 @@ $hesklang['can_submit_any_cat']='يمكن أن تقدم تذاكر إلى أي �
 $hesklang['noauth_submit']='!غير مصرح لك بتقديم تذاكر لهذه الفئة';
 $hesklang['noauth_move']='!غير مصرح لك بنقل التذاكر إلى هذه الفئة';
 $hesklang['noauth_resolve']='!أنت غير مصرح لك لحل التذاكر';
-$hesklang['force_ssl']='Force SSL connections';
-$hesklang['d_ssl']='<i>disabled</i> - open this page with https:// to manage this option';
-$hesklang['scno']='This status cannot be changed';
+$hesklang['force_ssl']='فرض الاتصال عن طريق SSL';
+$hesklang['d_ssl']='<i>معطل</i> - افتح هذه الصفحة باستخدام https:// لإدارة هذا الخيار';
+$hesklang['scno']='لا يمكن تغيير هذه الحالة';
 $hesklang['statuses']='الحالات';
-$hesklang['statuses_intro']='Use this tool to add custom ticket statuses to your help desk';
-$hesklang['color']='Color';
+$hesklang['statuses_intro']='استخدم هذه الأداة لإضافة حالات تذاكر مخصصة إلى مكتب المساعدة الخاص بك';
+$hesklang['color']='اللون';
 $hesklang['csscl']='CSS فئة أو لون';
-$hesklang['clr_view']='Color preview on text';
+$hesklang['clr_view']='معاينة اللون على النص';
 $hesklang['cbc']='قابلة للتغيير من قبل العملاء';
-$hesklang['ccc']='Can customers change this status?';
-$hesklang['del_status']='Delete this status?';
-$hesklang['ex_status']='Existing statuses';
+$hesklang['ccc']='هل يمكن للعملاء تغيير هذه الحالة؟';
+$hesklang['del_status']='حذف هذه الحالة؟';
+$hesklang['ex_status']='الحالات الموجودة';
 $hesklang['status_hesk']='الحالات المضمنة (لا يمكن تعديلها هنا)';
 $hesklang['status_custom']='حالات مخصصة';
 $hesklang['status_custom_none']='.لا توجد حالات مخصصة. يمكنك إضافتها بالنقر فوق "حالة مخصصة جديدة" أعلاه';
-$hesklang['status_save']='Save';
-$hesklang['list_tkt_status']='List all tickets with this status';
+$hesklang['status_save']='حفظ';
+$hesklang['list_tkt_status']='سرد جميع التذاكر التي تحمل هذه الحالة';
 $hesklang['new_status']='حالة مخصصة جديدة';
 $hesklang['edit_status']='تحرير الحالة المخصصة';
 $hesklang['err_status']='أدخل اسم الحالة';
@@ -1512,40 +1513,40 @@ $hesklang['status_not_found']='هذه الحالة المخصصة غير موج�
 $hesklang['status_not_empty']='لا يمكن إزالة هذه الحالة بسبب وجود تذاكر بهذه الحالة';
 $hesklang['status_limit']='.لديك 100 حالة مخصصة ، ولا يمكن إنشاء حالة جديدة';
 $hesklang['public_link']='رابط عام';
-$hesklang['frames']='Frames';
-$hesklang['frames2']='Prevent loading HESK in frames on third party domains';
+$hesklang['frames']='إطارات';
+$hesklang['frames2']='منع تحميل HESK في إطارات على نطاقات الجهات الخارجية';
 $hesklang['numsub']='التذاكر المرسلة';
-$hesklang['hidf']='Hidden inputs are not visible to customers on the Submit a ticket form (the value will still be visible on ticket details page if they are set as public). They behave as normal text fields for staff members.';
-$hesklang['rcheck']='Do not select a default option';
-$hesklang['refresh_page']='Refresh this page';
-$hesklang['del_kba']='Delete this article';
-$hesklang['del_kbaa']='Permanently delete this article';
-$hesklang['hni1']='HESK not installed yet?';
-$hesklang['hni2']='It appears that this help desk has not been properly installed and configured yet.';
-$hesklang['hni3']='To install HESK, follow <a class="link" href="docs/">Instructions in the documentation</a>';
+$hesklang['hidf']='المدخلات المخفية غير مرئية للعملاء في نموذج إرسال تذكرة (ستظل القيمة مرئية في صفحة تفاصيل التذكرة إذا تم تعيينها على أنها عامة). إنها تظهر كحقول نصية عادية للموظفين.';
+$hesklang['rcheck']='عدم تحديد خيار افتراضي';
+$hesklang['refresh_page']='تحديث هذه الصفحة';
+$hesklang['del_kba']='احذف هذه المقالة';
+$hesklang['del_kbaa']='حذف هذه المقالة نهائيًا';
+$hesklang['hni1']='لم يتم تثبيت HESK حتى الآن؟';
+$hesklang['hni2']='يبدو أن مكتب المساعدة هذا لم يتم تثبيته وتهيئته بشكل صحيح حتى الآن.';
+$hesklang['hni3']='لتثبيت HESK، اتبع <a class="link" href="docs/">التعليمات الواردة في الوثائق</a>';
 $hesklang['cf']='التخزين المؤقت';
-$hesklang['e_cdir']='Hesk will not be able to parse emails or cache results unless the cache folder exists and is writable.';
-$hesklang['step1']='Step 1';
-$hesklang['step2']='Step 2';
-$hesklang['dffs']='When download completes, delete the file from server';
-$hesklang['fd']='Export file deleted from server';
+$hesklang['e_cdir']='لن يتمكن Hesk من تحليل رسائل البريد الإلكتروني أو نتائج التخزين المؤقت ما لم يكن مجلد التخزين المؤقت موجودًا وقابل للكتابة.';
+$hesklang['step1']='الخطوة الأولى';
+$hesklang['step2']='الخطوة الثانية';
+$hesklang['dffs']='عند اكتمال التنزيل، احذف الملف من الخادم';
+$hesklang['fd']='تم حذف ملف التصدير من الخادم';
 
 // Added in version 2.8.0
 $hesklang['TZ']='المنطقة الزمنية';
 $hesklang['thist17']='<li class="smaller">%s | submitted by IMAP fetching</li>';
 $hesklang['sir3']='Invisible reCAPTCHA';
 $hesklang['invisible']='مخفي';
-$hesklang['imap_not']='PHP is not compiled with IMAP support';
-$hesklang['imap_warning']='user %1$s has the same email address as your IMAP fetching email address: %2$s'; // %1$s = username, %2$s = email address
-$hesklang['pop3_warning']='user %1$s has the same email address as your POP3 fetching email address: %2$s'; // %1$s = username, %2$s = email address
-$hesklang['fetch_warning']='This could result in an email loop where new tickets are being created from user email notifications. Your fetching email address should be unique and not used by anyone else.';
-$hesklang['can_view_ass_by']='Can view tickets he/she assigned to others';
+$hesklang['imap_not']='لم يتم تجميع PHP مع دعم IMAP';
+$hesklang['imap_warning']='المستخدم %1$s لديه نفس عنوان البريد الإلكتروني الذي يجلب البريد الإلكتروني الخاص بك IMAP: %2$s'; // %1$s = username, %2$s = email address
+$hesklang['pop3_warning']='المستخدم %1$s لديه نفس عنوان البريد الإلكتروني الذي يجلب البريد الإلكتروني POP3 الخاص بك: %2$s'; // %1$s = username, %2$s = email address
+$hesklang['fetch_warning']='قد ينتج عن ذلك حلقة بريد إلكتروني حيث يتم إنشاء تذاكر جديدة من إشعارات البريد الإلكتروني للمستخدم. يجب أن يكون عنوان البريد الإلكتروني الجالب فريداً ولا يستخدمه أي شخص آخر.';
+$hesklang['can_view_ass_by']='إمكانية عرض التذاكر التي تم تخصيصها للآخرين';
 $hesklang['can_privacy']='يمكن إخفاء هوية التذاكر';
 $hesklang['confirm_anony']='إخفاء هوية هذه التذكرة';
 $hesklang['anon_selected']='إخفاء هوية التذاكر المحددة';
-$hesklang['privacy_anon_info']='Remove all personally-identifiable data and content from tickets (customer name, email, message, attachments, IP...), but keep tickets in the database for statistics (right to be forgotten).';
+$hesklang['privacy_anon_info']='إزالة جميع بيانات التعريف الشخصية والمحتوى من التذاكر (اسم العميل والبريد الإلكتروني والرسالة والمرفقات وعنوان IP...)، ولكن مع الاحتفاظ بالتذاكر في قاعدة البيانات للإحصائيات (الحق في النسيان).';
 $hesklang['success_anon']='تم إخفاء هوية التذكرة بنجاح';
-$hesklang['num_tickets_anon']='Number of tickets anonymized: <b>%d</b>';
+$hesklang['num_tickets_anon']='عدد التذاكر مجهولة المصدر <b>%d</b>';
 $hesklang['anon_IP']='0.0.0.0'; // IP in anonymized tickets
 $hesklang['anon_name']='[Customer]'; // Customer name in anonymized tickets
 $hesklang['anon_email']=''; // Customer email in anonymized tickets
@@ -1554,7 +1555,7 @@ $hesklang['anon_message']='[Message]'; // Ticket message in anonymized tickets
 $hesklang['thist18']='<li class="smaller">%s | anonymized by %s</li>';
 $hesklang['print_selected']='طباعة التذاكر المحددة';
 $hesklang['with_selected']=':مع المحدد';
-$hesklang['assign_selected']=':تعيين المحدد لـ';
+$hesklang['assign_selected']=':تعيين المحدد ل';
 $hesklang['assign_no']='لم يتم تحديد مالك ، ولم يتم إجراء أي تغييرات';
 $hesklang['assign_1']='"تم تعيين التذاكر المحددة الى "غير مخصصة';
 $hesklang['assign_2']='Ticket ID %1$s set to Unassigned'; // %1$s = ticket numerical ID
@@ -1562,16 +1563,16 @@ $hesklang['assign_3']='%1$s error: already assigned to %2$s'; // %1$s = ticket t
 $hesklang['assign_4']='%1$s assigned to %2$s'; // %1$s = ticket tracking ID, %2$s = owner name
 $hesklang['assign_5']='%1$s error: %2$s doesn\'t have access to ticket category'; // %1$s = ticket tracking ID, %2$s = owner name
 $hesklang['assign_log']='Bulk ticket assign result:<br /><br />Assigned: %1$s<br />Errors: %2$s<br /><br />Log:<br /><pre>%3$s</pre>'; // %1$s = number of tickets assigned, %2$s = number of errors, %3$s = log
-$hesklang['IP_addr']='IP address';
+$hesklang['IP_addr']='عنوان بروتوكول الإنترنت';
 $hesklang['moret']='المزيد من الخيارات'; // More options button title
 $hesklang['btn_more']='المزيد'; // More options button text
 $hesklang['btn_print']='طباعة';
 $hesklang['btn_edit']='تحرير';
 $hesklang['btn_lock']='قفل التذكرة';
 $hesklang['btn_unlock']='فتح التذكرة';
-$hesklang['btn_tag']='Tag ticket';
+$hesklang['btn_tag']='وسم التذكرة';
 $hesklang['btn_resend']='إعادة إرسال إشعار البريد الإلكتروني';
-$hesklang['btn_untag']='Untag ticket';
+$hesklang['btn_untag']='الغاء وسم التذكرة';
 $hesklang['btn_import_kb']='استيراد لقاعدة المعرفة';
 $hesklang['btn_anony']='إخفاء هوية التذكرة';
 $hesklang['btn_delt']='حذف التذكرة';
@@ -1581,7 +1582,7 @@ $hesklang['tns']='تم إرسال إشعارات التذاكر مرة أخرى'
 $hesklang['rns']='تم إرسال إشعارات الرد مرة أخرى';
 $hesklang['fname']='الاسم الأول';
 $hesklang['export_selected']='تصدير التذاكر المحددة';
-$hesklang['btn_export']='Export to XML for Excel';
+$hesklang['btn_export']='التصدير إلى XML لبرنامج Excel';
 $hesklang['recaptcha']='reCAPTCHA';
 
 // Added in version 3.0.0
@@ -1594,13 +1595,13 @@ $hesklang['sm_go_to_settings']='الذهاب الى الاعدادات';
 $hesklang['sm_return_to_editing']='العودة الى التعديل';
 $hesklang['email_tpl_title']='العنوان';
 $hesklang['edit_email_template']='تعديل قالب البريد الالكتروني';
-$hesklang['err_no_settings_section']='No settings section was provided.';
+$hesklang['err_no_settings_section']='لم يتم توفير قسم الإعدادات.';
 $hesklang['this_field_is_required']='هذا الحقل مطلوب';
 $hesklang['reset_your_password']='تعديل كلمة مروروك';
-$hesklang['reset_password_instructions']='Please fill out the form below. We will send you a link to where you can reset your password.';
+$hesklang['reset_password_instructions']='يرجى ملء النموذج أدناه. سنرسل لك رابطًا يمكنك من خلاله إعادة تعيين كلمة المرور الخاصة بك.';
 $hesklang['enter_email']='ادخل البريد الإلكتروني';
 $hesklang['password_reset_check_your_email']='تأكد من بريدك الإلكتروني';
-$hesklang['password_reset_link_sent']='We sent you a link to reset your password.';
+$hesklang['password_reset_link_sent']='أرسلنا لك رابطاً لإعادة تعيين كلمة المرور الخاصة بك.';
 $hesklang['back_to_login']='العودة الى صفحة الدخول';
 $hesklang['pager_first']='البداية';
 $hesklang['pager_previous']='السابق';
@@ -1610,10 +1611,10 @@ $hesklang['new_team_member']='عضو جديد في الفريق';
 $hesklang['role']='الدور';
 $hesklang['optional']='اختياري';
 $hesklang['edit_profile']='تعديل الملف الشخصي';
-$hesklang['assigned_to']='مخصص لـ-';
+$hesklang['assigned_to']='مخصص ل-';
 $hesklang['contact']='مقدم التذكرة';
 $hesklang['unban_email']='فك الحظر عن هذا الأيميل';
-$hesklang['unban_ip']='فك الحظر عن هذا الـIP';
+$hesklang['unban_ip']='فك الحظر عن هذا الIP';
 $hesklang['show_previous_replies']='إظهار الردود السابقة';
 $hesklang['type_your_message']='اكتب رسالتك'; // Used when there are no canned responses
 $hesklang['close_button_text']='إغلاق';
@@ -1623,7 +1624,7 @@ $hesklang['view_existing_tickets']='عرض التذاكر المحفوظة';
 $hesklang['how_can_we_help']='!مرحبا، كيف يمكننا مساعدتك؟';
 $hesklang['search_for_articles']='البحث في المقالات';
 $hesklang['submit_a_support_request']='إرسال طلب دعم';
-$hesklang['verify_header']='SPAM Prevention';
+$hesklang['verify_header']='منع الرسائل غير المرغوب بها';
 $hesklang['ticket_details']='تفاصيل التذكرة';
 $hesklang['yes_title_case']='نعم';
 $hesklang['no_title_case']='لا';
@@ -1641,7 +1642,7 @@ $hesklang['help_desk']='مكتب الدعم'; // Displayed on staff sidebar menu
 $hesklang['TIMEAGO_LANG_FILE']='jquery.timeago.ar.js'; // Name of the proper language file in folder /js/timeago/locales
 $hesklang['tdis']='عرض الوقت';
 $hesklang['tdisd']='التاريخ و الوقت';
-$hesklang['tdisa']='Time ago (example: 5 hours ago)';
+$hesklang['tdisa']='منذ وقت مضى (مثال: منذ 5 ساعات)';
 $hesklang['nav_templates']='القوالب الجاهزة'; // Admin panel navigation item
 $hesklang['hide_replies']='إخفاء ردود التذكرة';
 $hesklang['hide_replies_no']='لا تخفي ، دائما اعرض كل الردود';
@@ -1653,18 +1654,18 @@ $hesklang['lwidth']='عرض محدد للتذكرة';
 $hesklang['lwidtall']='استخدم كامل العرض الموجود';
 $hesklang['lwidtpx']='العرض الاقصى بالبكسل:';
 // 3-letter days of the week
-$hesklang['mon']='Mon';
-$hesklang['tue']='Tue';
-$hesklang['wed']='Wed';
-$hesklang['thu']='Thu';
-$hesklang['fri']='Fri';
-$hesklang['sat']='Sat';
-$hesklang['sun']='Sun';
+$hesklang['mon']='اثن';
+$hesklang['tue']='ثلا';
+$hesklang['wed']='ارب';
+$hesklang['thu']='خمي';
+$hesklang['fri']='جمع';
+$hesklang['sat']='سبت';
+$hesklang['sun']='احد';
 $hesklang['clear']='مسح'; // delete field value
-$hesklang['first_day_of_week']='0'; // first day of week; 0 = Sunday, 1 = Monday, 2 = Tuesday, ...
-$hesklang['modules']='الوحدات النمطية';
-$hesklang['modules_demo']='This module is currently available only in %s'; // %s = Hesk cloud link
-$hesklang['see_demo']='Try the live demo here: %s'; // %s = Hesk demo link
+$hesklang['first_day_of_week']='7'; // first day of week; 0 = Sunday, 1 = Monday, 2 = Tuesday, ...
+$hesklang['modules']='الوحدات';
+$hesklang['modules_demo']='هذه الوحدة متوفرة حاليًا فقط في %s'; // %s = Hesk cloud link
+$hesklang['see_demo']='جرّب المثال الحي هنا: %s'; // %s = Hesk demo link
 $hesklang['statistics']['tab']='إحصائيات';
 $hesklang['statistics']['intro']='.سيوفر لك هذا التقرير نظرة ثاقبة حول استخدام مكتب المساعدة وأداء فريق العمل';
 $hesklang['statistics']['ntsp']='.لا توجد تذاكر في الفترة الزمنية المحددة';
@@ -1701,9 +1702,9 @@ $hesklang['statistics']['ct_1w']='1 أسبوع';
 $hesklang['statistics']['ct_wp']=' 1 أسبوع <';
 $hesklang['statistics']['ct_1m']='1 شهر';
 $hesklang['statistics']['ct_mp']=' 1 شهر <';
-$hesklang['statistics']['axis1']='% of tickets replied';
-$hesklang['statistics']['axis2']='% of tickets resolved';
-$hesklang['statistics']['axis3']='% of tickets';
+$hesklang['statistics']['axis1']='% للتذاكر التي تم الرد عليها';
+$hesklang['statistics']['axis2']='% للتذاكر التي تم حلها';
+$hesklang['statistics']['axis3']='% للتذاكر';
 $hesklang['statistics']['axis4']='الوقت من أول رد';
 $hesklang['statistics']['axis5']='الوقت إلى حلها';
 $hesklang['statistics']['axis6']='عدد الردود';
@@ -1734,9 +1735,9 @@ $hesklang['sep_dec']='.'; // separator between full and decimal numbers: 0.99
 $hesklang['and_more']='...وأكثر بكثير'; // last item in a list
 
 // Added in version 3.2.0
-$hesklang['overdue_ticket']='[#%%TRACK_ID%%] Ticket overdue';
+$hesklang['overdue_ticket']='[#%%TRACK_ID%%] تذكرة متأخرة';
 $hesklang['ticket_escalated']='[#%%TRACK_ID%%] ESCALATED: %%SUBJECT%%';
-$hesklang['escalate']['tab']='Escalate'; // Menu link
+$hesklang['escalate']['tab']='تصعيد'; // Menu link
 $hesklang['escalate']['page_title']='تصعيد التذاكر'; // Page H2 title
 $hesklang['escalate']['intro']='ستساعدك هذه الوحدة في تصعيد التذاكر التي لم تتم متابعتها في الوقت المحدد';
 $hesklang['escalate']['feat1']='التذاكر التي لم يتم تخصيصها أو الرد عليها أو حلها خلال إطار زمني';
@@ -1746,7 +1747,7 @@ $hesklang['escalate']['feat4']='تطبيق القواعد على أساس فئة
 $hesklang['escalate']['prefix']=':تم تصعيده'; // Email subject prefix, e.g. "Escalated: [XXX-XXX-XXXX] Test ticket"
 $hesklang['escalate']['active_rules']='القواعد النشطة';
 $hesklang['escalate']['new']='قاعدة تصعيد جديدة';
-$hesklang['escalate']['no_rules']='You do not have any escalation rules. Create one by clicking the &quot;New escalation rule&quot; button above.';
+$hesklang['escalate']['no_rules']=' ليس لديك أي قواعد تصعيد. قم بإنشاء واحدة من خلال النقر على زر  &quot;قاعدة تصعيد جديدة&quot; أعلاه.';
 $hesklang['escalate']['title']='عنوان القاعدة';
 $hesklang['escalate']['titlet']='عنوان وصفي ، على سبيل المثال: إعادة تخصيص التذاكر التي لم يتم الرد عليها خلال يوم واحد';
 $hesklang['escalate']['default_title']='Rule by %1$s'; // Default rule title; %1$s = user name
@@ -1778,12 +1779,12 @@ $hesklang['escalate']['force']='أرسل دائمًا ، وتجاهل إعداد
 $hesklang['escalate']['noforce']='احترم إعدادات إشعارات فريق العمل';
 $hesklang['escalate']['setpri']=':اضبط الأولوية إلى';
 $hesklang['escalate']['setsta']=':اضبط الحالة إلى';
-$hesklang['escalate']['assto']=':تخصيص تذكرة لـ';
+$hesklang['escalate']['assto']=':تخصيص تذكرة ل';
 $hesklang['escalate']['asm']='موظف آخر';
 $hesklang['escalate']['notify']='...إشعار فريق العمل';
 $hesklang['escalate']['ato']=':تطبيق على';
 $hesklang['escalate']['tic']=':تذاكر في الفئة';
-$hesklang['escalate']['tat']=':تذاكر مخصصة لـ';
+$hesklang['escalate']['tat']=':تذاكر مخصصة ل';
 $hesklang['escalate']['tws']=':تذاكر ذات حالة';
 $hesklang['escalate']['tall']='طبق هذه القاعدة على التذاكر الحالية والمستقبلية';
 $hesklang['escalate']['tfn']='قم بتطبيق هذه القاعدة على التذاكر المستقبلية فقط ، وتجاهل التذاكر الحالية';
@@ -1861,7 +1862,7 @@ $hesklang['ql_a2o']='مخصصة لأخرين';
 $hesklang['ql_una']='غير مخصصة';
 $hesklang['ql_due']='مستحق قريباً';
 $hesklang['ql_ovr']='متاخره';
-$hesklang['set_ds']='إظهار كـ "مستحق قريبًا"'; // Settings page (title of setting)
+$hesklang['set_ds']='إظهار ك "مستحق قريبًا"'; // Settings page (title of setting)
 $hesklang['set_ds2']='أيام قبل تاريخ الاستحقاق';
 $hesklang['not_aos']='Some open tickets you have access to are not shown due to your filters.';
 $hesklang['ntoverdue']=':تأخرت التذكرة مع المالك';
@@ -2056,86 +2057,86 @@ $hesklang['e_new_pass']='يرجى إدخال كلمة المرور الجديد�
 $hesklang['pass_len']='كلمة المرور هذه يجب ان لا تتعدى 64 حرف';
 $hesklang['pass_login']='يرجى تسجيل الدخول مرة اخرى بعد تعديل كلمة المرور';
 $hesklang['bf_int']='لقد تم تسجيل خروجك بسبب فشل العديد من محاولات التحقق الفاشلة';
-$hesklang['tst_cnt']='Number of emails your mail server will send to Hesk: %s'; // %s = number of emails
-$hesklang['wrn_imap']='You have many unread emails in your mailbox (%1$s). Hesk will turn all these emails into tickets.<br><br>You may want to mark existing emails as read before enabling %2$s or use a new email account for Hesk.'; // %1$s = number of emails, %2$s = IMAP or POP3 fetching
-$hesklang['wrn_pop3']='You have many emails in your mailbox (%1$s). Hesk will turn all these emails into tickets.<br><br>You may want to delete existing emails before enabling %2$s or use a new email account for Hesk.'; // %1$s = number of emails, %2$s = IMAP or POP3 fetching
+$hesklang['tst_cnt']='عدد رسائل البريد الإلكتروني التي سيرسلها خادم البريد الخاص بك إلى HESK: %s'; // %s = number of emails
+$hesklang['wrn_imap']='لديك العديد من رسائل البريد الإلكتروني غير المقروءة في صندوق البريد الخاص بك (%1$s). سيقوم HESK بتحويل جميع رسائل البريد الإلكتروني هذه إلى تذاكر.<br><br>قد ترغب في وضع علامة على رسائل البريد الإلكتروني الحالية كمقروءة قبل تمكين %2$s أو استخدام حساب بريد إلكتروني جديد لـHESK.'; // %1$s = number of emails, %2$s = IMAP or POP3 fetching
+$hesklang['wrn_pop3']='لديك العديد من رسائل البريد الإلكتروني في صندوق بريدك (%1$s). سيحول Hesk جميع رسائل البريد الإلكتروني هذه إلى تذاكر.<br><br>قد ترغب في حذف رسائل البريد الإلكتروني الحالية قبل تمكين %2$s أو استخدام حساب بريد إلكتروني جديد لـ Hesk.'; // %1$s = number of emails, %2$s = IMAP or POP3 fetching
 $hesklang['search_due_date_specific']='مستحق في تاريخ'; // Due on (date)
 $hesklang['search_due_date_range']='مستحق في'; // Due in (X days)
 $hesklang['attachment_add_files']='إضافة ملف';
 $hesklang['attachment_max_exceeded']='لن يتم رفع هذا الملف لأنك قمت بالفعل بتحميل الحد الأقصى لعدد الملفات المسموح به.';
 $hesklang['attachment_viewer_message']='اسحب الملفات هنا أو انقر على زر \'إضافة ملف\' أدناه لتحديد الملفات المراد تحميلها.';
-$hesklang['attachment_invalid_type_message']='Sorry, but the file type you tried to upload is not allowed.';
-$hesklang['attachment_upload_error']='An error occurred when trying to upload. Please try again later.';
-$hesklang['attachment_too_large']='This attachment is larger than the max filesize permitted.';
-$hesklang['attachment_cancel']='Cancel';
-$hesklang['attachment_confirm_cancel']='Are you sure you want to cancel this upload?';
-$hesklang['attachment_remove']='Remove attachment';
-$hesklang['attachment_too_many_uploads']='Too many attachments have been uploaded from your location in a short period of time. Please try your request again later.';
-$hesklang['sub_note']='Submit note';
-$hesklang['can_view_users']='View all users (but not manage them)';
-$hesklang['welcome1']='Hey there, you seem to be new here. Welcome!';
-$hesklang['welcome2']='To help you get started, check out the %s.'; // %s = Hesk online Quick Start Guide (below)
-$hesklang['welcome3']='Hesk online Quick Start Guide';
-$hesklang['tmce1']='Use Ctrl+Right click to access spellchecker';
-$hesklang['tmce2']='Hold the Control (Ctrl) key and right-click on the misspelled word to access the spellchecker.';
+$hesklang['attachment_invalid_type_message']='عذراً، ولكن نوع الملف الذي حاولت تحميله غير مسموح به.';
+$hesklang['attachment_upload_error']='حدث خطأ عند محاولة التحميل. يرجى المحاولة مرة أخرى لاحقاً.';
+$hesklang['attachment_too_large']='هذا المرفق أكبر من الحد الأقصى لحجم الملفات المسموح به.';
+$hesklang['attachment_cancel']='الغاء';
+$hesklang['attachment_confirm_cancel']='هل أنت متأكد أنك تريد إلغاء هذا التحميل؟';
+$hesklang['attachment_remove']='إزالة المرفق';
+$hesklang['attachment_too_many_uploads']='تم تحميل عدد كبير جداً من المرفقات من موقعك في فترة زمنية قصيرة. يرجى محاولة طلبك مرة أخرى في وقت لاحق.';
+$hesklang['sub_note']='تقديم ملاحظة';
+$hesklang['can_view_users']='عرض جميع المستخدمين (ولكن ليس إدارتهم)';
+$hesklang['welcome1']='مرحباً، يبدو أنك جديد هنا. أهلاً بك!';
+$hesklang['welcome2']='لمساعدتك على البدء، اطلع على %s.'; // %s = Hesk online Quick Start Guide (below)
+$hesklang['welcome3']='دليل البدء السريع عبر الإنترنت لـHesk';
+$hesklang['tmce1']='اضغط مع الاستمرار على المفتاح (Ctrl) وزر الماوس الأيمن للوصول إلى المدقق الإملائي';
+$hesklang['tmce2']='اضغط مع الاستمرار على المفتاح (Ctrl) وانقر بزر الماوس الأيمن على الكلمة التي بها خطأ إملائي للوصول إلى المدقق الإملائي.';
 $hesklang['desc_new_ticket_by_staff']='(العميل) تذكرة جديدة مقدمة من الموظفين';
-$hesklang['mod_et_h']='You can modify email templates under %1$s &gt; %2$s'; // %1$s = Tools, %2$s = Email templates link
-$hesklang['set_lang']='Set language to';
-$hesklang['ouwa']='Only users with access to this category are listed below. To add staff members to this category, edit their permissions on the %s page'; // %s = Team
-$hesklang['previous_tickets']='Previous tickets';
-$hesklang['no_previous']='No previous tickets by %s'; // %s = email address
-$hesklang['all_previous']='List all previous tickets';
-$hesklang['confirm_delete_ticket']='Are you sure you want to permanently delete this ticket?';
-$hesklang['confirm_delete_reply']='Are you sure you want to permanently delete this reply?';
-$hesklang['select_new_category']='Number of tickets in this category: %s<br><br>Please select a new category to transfer these tickets to:'; // %s = Number of tickets
-$hesklang['deleting_user_with_tickets']='Number of tickets assigned to this user: %1$s<br>Number of <b>open</b> tickets assigned to this user: %2$s<br><br><b>Open</b> tickets will be <b>unassigned</b> after deleting this user.'; // %1$s = total tickets, %2$s = open tickets
-$hesklang['hlic']='HESK license';
-$hesklang['hlic_free']='FREE';
-$hesklang['hlic_buyl']='Buy a License';
-$hesklang['hlic_paid']='Licensed';
-$hesklang['antdemo']='Submitting tickets from the admin panel has been disabled in the demo mode.<br><br>Please use the <a href="%s" target="_blank">public side</a> to submit a test ticket.';
+$hesklang['mod_et_h']='يمكنك تعديل قوالب البريد الإلكتروني في %1$s &gt; %2$s'; // %1$s = Tools, %2$s = Email templates link
+$hesklang['set_lang']='ضبط اللغة على';
+$hesklang['ouwa']='يتم إدراج المستخدمين الذين لديهم حق الوصول إلى هذه الفئة فقط أدناه. لإضافة أعضاء فريق العمل إلى هذه الفئة، قم بتحرير الأذونات الخاصة بهم في صفحة %s'; // %s = Team
+$hesklang['previous_tickets']='التذاكر السابقة';
+$hesklang['no_previous']='لا توجد تذاكر سابقة من قبل %s'; // %s = email address
+$hesklang['all_previous']='عرض قائمة بجميع التذاكر السابقة';
+$hesklang['confirm_delete_ticket']='هل أنت متأكد من رغبتك في حذف هذه التذكرة نهائياً؟';
+$hesklang['confirm_delete_reply']='هل أنت متأكد من رغبتك في حذف هذا الرد نهائيًا؟';
+$hesklang['select_new_category']='عدد التذاكر في هذه الفئة: %s<br><br>يرجى تحديد فئة جديدة لتحويل هذه التذاكر إليها:'; // %s = Number of tickets
+$hesklang['deleting_user_with_tickets']='عدد التذاكر المخصصة لهذا المستخدم: %1$s<br>عدد التذاكر <b>المفتوحة</b> المعينة لهذا المستخدم: %2$s<br><br>التذاكر المفتوحة ستكون غير معينة بعد حذف المستخدم هذا.'; // %1$s = total tickets, %2$s = open tickets
+$hesklang['hlic']='ترخيص HESK';
+$hesklang['hlic_free']='ماني';
+$hesklang['hlic_buyl']='شراء ترخيص';
+$hesklang['hlic_paid']='مرخص';
+$hesklang['antdemo']='تم تعطيل إرسال التذاكر من لوحة الإدارة في الوضع التجريبي.<br><br>يرجى استخدام <a href="%s" target="_blank">الجانب العام</a> لإرسال تذكرة اختبار.';
 
 // Added in version 3.4.0
-$hesklang['email_authentication_method']='Authentication method';
-$hesklang['email_authentication_method_username_password']='Basic (Username / Password)';
+$hesklang['email_authentication_method']='طريقة التوثيق';
+$hesklang['email_authentication_method_username_password']='أساسي (اسم المستخدم/كلمة المرور)';
 $hesklang['email_authentication_method_oauth']='OAuth';
-$hesklang['email_authentication_method_oauth_disabled']='OAuth - No verified OAuth providers configured.';
-$hesklang['email_authentication_method_oauth_link']='Manage OAuth providers'; // Links to "OAuth Providers" tools page
-$hesklang['email_oauth_auth_url']='Authorization Endpoint URL';
-$hesklang['email_oauth_token_url']='Token Endpoint URL';
-$hesklang['email_oauth_client_id']='Client ID';
-$hesklang['email_oauth_client_secret']='Client Secret';
-$hesklang['email_oauth_scope']='Scope';
-$hesklang['oauth_error_invalid_state']='OAuth state does not match the state sent to OAuth provider.';
-$hesklang['oauth_error_unknown']='An unknown error occurred when attempting to save OAuth tokens.';
-$hesklang['oauth_error_no_token']='Access token missing in the JSON response.';
-$hesklang['oauth_error_retrieve']='Unable to retrieve an access token. Please confirm your OAuth Provider settings and re-save them to acquire a new token.';
-$hesklang['email_oauth_provider']='OAuth Provider';
-$hesklang['email_oauth_providers']='OAuth Providers';
-$hesklang['email_oauth_provider_guide']='Before using OAuth, you must register an OAuth Provider. For details, please see <a href="%s" target="_blank">this knowledgebase guide</a>.'; // %s = link to article
-$hesklang['email_oauth_provider_uri']='Your OAuth Redirect URI for Hesk is:<br><i>%s</i>'; // %s = URL of the oauth_providers.php file
-$hesklang['email_oauth_providers_intro']='Use this tool to add OAuth providers to your help desk';
-$hesklang['email_oauth_provider_name']='Name'; // OAuth provider name
-$hesklang['email_oauth_new_provider']='New Provider';
-$hesklang['email_oauth_edit_provider']='Edit Provider';
-$hesklang['email_oauth_provider_being_used_for']='Being Used For';
-$hesklang['email_oauth_providers_none']='No OAuth providers saved. You can add them by clicking "New Provider" above.';
-$hesklang['email_oauth_provider_cannot_be_deleted']='This provider cannot be removed because it is being used by the help desk.';
-$hesklang['email_oauth_confirm_delete_provider']='Are you sure you want to delete this OAuth provider?';
-$hesklang['oauth_provider_saved']='OAuth provider has been saved';
-$hesklang['oauth_provider_use']='You can now select this provider in %s &gt; %s'; // %s = Settings, %s = Email
-$hesklang['oauth_provider_err_name']='Enter the provider name';
-$hesklang['oauth_provider_err_auth_url']='Enter a valid authorization URL';
-$hesklang['oauth_provider_err_token_url']='Enter a valid token URL';
-$hesklang['oauth_provider_err_client_id']='Enter the client ID';
-$hesklang['oauth_provider_err_client_secret']='Enter the client secret';
-$hesklang['oauth_provider_err_scope']='Enter the scope';
-$hesklang['oauth_provider_deleted']='OAuth provider deleted';
-$hesklang['oauth_provider_not_found']='This OAuth provider does not exist';
-$hesklang['oauth_provider_verified']='Verified';
-$hesklang['oauth_provider_click_to_verify']='Click to verify';
-$hesklang['can_due_date']='Can set due date'; // Permission to set and modify due date
-$hesklang['can_due_date_e']='You do not have permission to set due dates';
+$hesklang['email_authentication_method_oauth_disabled']='OAuth - لم يتم تكوين أي موفري الـOAuth التي تم التحقق منها.';
+$hesklang['email_authentication_method_oauth_link']='إدارة موفري الـOAuth'; // Links to "OAuth Providers" tools page
+$hesklang['email_oauth_auth_url']='عنوان URL نقطة نهاية التفويض';
+$hesklang['email_oauth_token_url']='عنوان URL لنقطة النهاية الرمزية';
+$hesklang['email_oauth_client_id']='معرف العميل';
+$hesklang['email_oauth_client_secret']='سر العميل';
+$hesklang['email_oauth_scope']='النطاق';
+$hesklang['oauth_error_invalid_state']='حالة الـOAuth لا تتطابق مع الحالة المرسلة إلى موفر الـOAuth.';
+$hesklang['oauth_error_unknown']='حدث خطأ غير معروف عند محاولة حفظ رموز الـOAuth المميزة.';
+$hesklang['oauth_error_no_token']='رمز الوصول مفقود في استجابة الـJSON.';
+$hesklang['oauth_error_retrieve']='تعذر استرداد رمز الوصول المميز. يرجى تأكيد إعدادات موفر الـOAuth وإعادة حفظها للحصول على رمز مميز جديد.';
+$hesklang['email_oauth_provider']='موفر الـOAuth';
+$hesklang['email_oauth_providers']='موفرو الـOAuth';
+$hesklang['email_oauth_provider_guide']='قبل استخدام OAuth، يجب عليك تسجيل موفر OAuth. لمزيد من التفاصيل، يرجى الاطلاع على <a href="%s" target="_blank">دليل قاعدة المعرفة هذا/a>.'; // %s = link to article
+$hesklang['email_oauth_provider_uri']='معرّف إعادة التوجيه OAuth URI لـ Hesk هو:<br><i>%s</i>'; // %s = URL of the oauth_providers.php file
+$hesklang['email_oauth_providers_intro']='استخدم هذه الأداة لإضافة موفري OAuth إلى مكتب المساعدة الخاص بك';
+$hesklang['email_oauth_provider_name']='الإسم'; // OAuth provider name
+$hesklang['email_oauth_new_provider']='مزود جديد';
+$hesklang['email_oauth_edit_provider']='تحرير الموفر';
+$hesklang['email_oauth_provider_being_used_for']='تُستخدم من أجل';
+$hesklang['email_oauth_providers_none']='لم يتم حفظ موفري OAuth. يمكنك إضافتها بالنقر على "موفر جديد" أعلاه.';
+$hesklang['email_oauth_provider_cannot_be_deleted']='لا يمكن إزالة هذا الموفر لأنه يتم استخدامه من قبل مكتب المساعدة.';
+$hesklang['email_oauth_confirm_delete_provider']='هل أنت متأكد أنك تريد حذف موفر OAuth هذا؟';
+$hesklang['oauth_provider_saved']='تم حفظ موفر الـOAuth';
+$hesklang['oauth_provider_use']='يمكنك الآن تحديد هذا الموفر في %s &gt; %s'; // %s = Settings, %s = Email
+$hesklang['oauth_provider_err_name']='أدخل اسم الموفر';
+$hesklang['oauth_provider_err_auth_url']='أدخل عنوان URL تفويض صالح';
+$hesklang['oauth_provider_err_token_url']='أدخل عنوان URL صالحاً للرمز المميز';
+$hesklang['oauth_provider_err_client_id']='أدخل معرّف العميل';
+$hesklang['oauth_provider_err_client_secret']='أدخل سر العميل';
+$hesklang['oauth_provider_err_scope']='أدخل النطاق';
+$hesklang['oauth_provider_deleted']='تم حذف موفر الـOAuth';
+$hesklang['oauth_provider_not_found']='موفر OAuth هذا غير موجود';
+$hesklang['oauth_provider_verified']='تم التحقق';
+$hesklang['oauth_provider_click_to_verify']='انقر للتحقق';
+$hesklang['can_due_date']='يمكن تحديد تاريخ الاستحقاق'; // Permission to set and modify due date
+$hesklang['can_due_date_e']='ليس لديك إذن لتحديد تواريخ الاستحقاق';
 
 // DO NOT CHANGE BELOW
 if (!defined('IN_SCRIPT')) die('PHP syntax OK!');
